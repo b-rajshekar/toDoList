@@ -6,4 +6,38 @@
 
 body {
     background-image: linear-gradient(to right, #8360c3, #2ebf91);
+    font-family: "Roboto Mono", sans-serif;
+    min-height: 100vh;
+}
+
+header {
+    font-size: 1.5rem;
+}
+
+header,
+form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input,
+form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background-color: white;
+}
+
+form button {
+    color: #2ebf91;
+    background: white;
+    cursor: pointer;
+    transform: all 0.3s ease;
+}
+
+form button:hover {
+    background-color: #2ebf91;
+    color: white;
 }
