@@ -82,3 +82,19 @@ function filterTodo(e) {
         }
     });
 }
+
+// Going to add local storange in next project with react, not in this
+
+// //Local Storage for the ToDo List
+// function saveLocalTodos(todo) {
+//     /* If adding a new item it will check,if we dont have it just create an empty array, If we do have todo, we gonna be left with any array, If we have an array it just push it on to toDo and get it back to local storage.
+//     */
+//     let todo;
+//     if (localStorage.getItem("todos") === null) {
+//         todos = [];
+//     } else {
+//         todos = JSON.parse(localStorage.getItem("todos"));
+//     }
+//     todos.push(todo);
+//     localStorage.setItem("todos", JSON.stringify(todos));
+// }
